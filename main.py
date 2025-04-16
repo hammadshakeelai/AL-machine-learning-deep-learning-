@@ -45,3 +45,42 @@
 #{'name':"hammad"}
 # dict(nane="hammad")
 # .keys() .values() .items() .get(key) .pop(key) .clear() 
+# text='hloo'
+# print(list(text))#//splits string individually
+# dict={
+#       1:"yes",
+#       2:"no",
+#       3:"maybe",
+#       4:"for sure"
+#      }
+# print(dict.keys())
+# print(dict.values())
+# print(dict.items())
+# print(dict.get(4))
+# print(dict.get(7))
+# print(dict.pop(3))
+# print(dict)
+# del dict[2]
+# print(dict)
+# import time
+# for i in range(1000,0,-1):
+#     print("shayan is number ",i," kutta")
+#     time.sleep(0.03)
+# print("congratulations")
+# import time
+# for h in range(365):
+#     for i in range(24):
+#         for j in range(60):
+#             for k in range(60):
+#                 print(f"{h=}:{i=}:{j=}:{k=}")
+# dict={"k":4,"3":444}
+# for i,j in dict.items():
+#     print(i,j)
+# import time
+# if (3 and 1)==1:
+#         print("t")
+# else:
+#         print("f")
+# #----
+# x=6
+# "even" if x%2==0 else "odd"
