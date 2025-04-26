@@ -259,23 +259,51 @@
 #     return filtered_passwords
 # filterPassword()
 # ###############
-from time import time
-def measureTime(func):
-    def wrapper():
-        start_time = time()
-        result = func()
-        end_time = time()
-        print("time taken was ",round(end_time - start_time,6))
-        return result
-    return wrapper
-        
-@measureTime
-def filterPassword():
-    passwords=["fgd","egerthgrh","fdhdrt","hdfgbdfg"]
-    filtered_passwords=[]
-    for password in passwords:
-        if len(password)>=6:
-            filtered_passwords.append(password)
-    return filtered_passwords
+# from time import time
+# def measureTime(func):
+#     def wrapper():
+#         start_time = time()
+#         result = func()
+#         end_time = time()
+#         print("time taken was ",round(end_time - start_time,6))
+#         return result
+#     return wrapper
+      
+# @measureTime
+# def filterPassword():
+#     passwords=["fgd","egerthgrh","fdhdrt","hdfgbdfg"]
+#     filtered_passwords=[]
+#     for password in passwords:
+#         if len(password)>=6:
+#             filtered_passwords.append(password)
+#     return filtered_passwords
 
-print(list(filterPassword()))
+# print(list(filterPassword()))
+
+# file.closed
+# file.read().split("\n")
+# import csv
+# def add_student_record(name,age,height):
+#     student_records=name+", "+str(age)+", "+str(height)+"\n"
+#     file_output.write(student_records)
+    
+# with open("file.csv","w") as file_output:
+#     dict={"name":[],"age":[],"height":[]}
+#     for i in range(5):
+#         try:
+#             name=input(f"enter student no.{i+1} name: ")
+#             age=int(input(f"enter student no.{i+1} age: ")) or None
+#             height=int(input(f"enter student no.{i+1} height: ")) or None
+#         except:
+#             if age == None or height == None:
+#                 print("invalid input please enter valid integers or floats...")
+#                 age=int(input(f"enter student no.{i+1} age: ")) or None
+                
+#                 height=int(input(f"enter student no.{i+1} height: ")) or None 
+#         finally:
+#             dict["name"].append(name)
+#             dict["age"].append(age)
+#             dict["height"].append(height)
+#     file_output.write("name, age,height\n")  
+#     for i in range(1,6):
+#         add_student_record(dict["name"][i-1],dict["age"][i-1],dict["height"][i-1])
