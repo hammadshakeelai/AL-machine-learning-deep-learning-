@@ -172,7 +172,7 @@ import numpy as np
 # import csv
 # with open("data.txt",'w') as w:
 #   # w.write("1,2,3,4,5,6,7,8\n1,2,3,4,67,88,7,5\n2,3,5,3,4,86,466,4")
-# a=np.genfromtxt('data.txt',delimiter=',')
+# a=np.genfromtxt('data.txt',delimiter=',')#-----------------------------------
 # a=a.astype('int16')
 # print(a)
 # ##BOOLEAN MASKING AND ADVANCED INDEXING
