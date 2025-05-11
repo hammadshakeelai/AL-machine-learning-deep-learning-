@@ -21,3 +21,6 @@ if len(data[data>U]):
     print(data[data>U])
 if len(data[data<L]):
     print(data[data<L])
+    
+# print(data[])/
+# if 
