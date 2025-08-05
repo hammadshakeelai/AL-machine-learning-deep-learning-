@@ -1,11 +1,51 @@
-                      "gonna","wanna","lol","omg",
-                      "dunno","brb","idk","btw",
-                      "fuck","ur","ur","cuz",
-                      "b4","lmao","smh","tbh",
-                      "bitch","thx","pls","plz",
-                      "kinda","sorta","gimme",
-                      "lemme","gotta","cya","hmu",
-                      "bff","imo","fyi","tbh",
-                      "lmk","wut","wtf","yolo",
-                      "bday","bffl","tbh","idc",
-                      "smh","fml","tbh","btw","imo"
+[6:21 PM, 8/5/2025] Hammad.: Omar how has been your nlp journey
+[6:22 PM, 8/5/2025] Omar: Its going good, but every other day I come across something new, so I feel like there's a lot
+[6:23 PM, 8/5/2025] Hammad.: Nice I have tried transformers yet
+[6:23 PM, 8/5/2025] Omar: Nice, how was it
+[6:24 PM, 8/5/2025] Hammad.: Very bad experience first of all you can't run them on your system because they are super heavy memory wise and computational so I was forced to Google Collab and in 30 minutes I wsted half the time you get of free gpu
+[6:25 PM, 8/5/2025] Hammad.: So I stopped cos I was getting nowhere
+[6:25 PM, 8/5/2025] Hammad.: It was a small one only 7 billion parameters
+[6:26 PM, 8/5/2025] Hammad.: Comparatively deepseek is 698billion
+[6:26 PM, 8/5/2025] Hammad.: Still didn't work
+[6:27 PM, 8/5/2025] Hammad.: I thought you would know more about it
+[6:27 PM, 8/5/2025] Omar: I don't exactly know about it, but I know that we can't really practice it on our computers, they require high specs
+[6:28 PM, 8/5/2025] Hammad.: Yea
+[6:28 PM, 8/5/2025] Omar: And we can't train them on few data either, because they are designed for very large amounts of data, so they don't give satisfactory results on few data
+[6:29 PM, 8/5/2025] Omar: I tried w2vec on about 10k samples and it gave very poor performance, the reason was the low amount of data
+[6:29 PM, 8/5/2025] Omar: And for higher amount, we need gpu's
+[6:29 PM, 8/5/2025] Omar: Alot of times my memory both local and google colab had no space left, so I had to reduce the data
+[6:30 PM, 8/5/2025] Hammad.: Can't we fine tune a already trained transformer like chatgpt to some specific style
+[6:31 PM, 8/5/2025] Omar: We can do that, but chat gpt is too large
+[6:31 PM, 8/5/2025] Omar: You can try, maybe BERT
+[6:31 PM, 8/5/2025] Hammad.: How large exactly
+[6:32 PM, 8/5/2025] Hammad.: I tried huggingface 7b falcon titaea something something named transformer
+[6:32 PM, 8/5/2025] Hammad.: But it's result were not even remotely good
+[6:38 PM, 8/5/2025] Omar: I guess one of the main reasons was the data
+[6:39 PM, 8/5/2025] Hammad.: Yea
+[6:39 PM, 8/5/2025] Omar: Because they fail to generalize or properly understand patterns, and work well with alot of data
+[6:39 PM, 8/5/2025] Hammad.: Also my project required me to know data scraping scripting
+[6:39 PM, 8/5/2025] Hammad.: Which I dont
+[6:40 PM, 8/5/2025] Hammad.: True
+[6:40 PM, 8/5/2025] Omar: I see
+[6:41 PM, 8/5/2025] Omar: What project are you working on
+[6:42 PM, 8/5/2025] Hammad.: I have heard chatgpt 4 has like 120 transformers
+[6:42 PM, 8/5/2025] Hammad.: Chat style imitation
+[6:43 PM, 8/5/2025] Hammad.: Basically if I supply it all my chats it can talk like me
+[6:44 PM, 8/5/2025] Omar: I see, thats interesting
+[6:44 PM, 8/5/2025] Hammad.: I can also implement picture understanding and speech understanding into it with all sentiments and stuff but I can't seem to able to auto scrap the data
+[6:45 PM, 8/5/2025] Omar: Isnt there any other way?
+[6:45 PM, 8/5/2025] Omar: From where did you get the data from
+[6:46 PM, 8/5/2025] Hammad.: Their is but then that won't fullfill the projects purpose
+[6:46 PM, 8/5/2025] Hammad.: I primarily want to do it from WhatsApp
+[6:47 PM, 8/5/2025] Hammad.: Or any other app like it
+[6:47 PM, 8/5/2025] Hammad.: Wait I'll try WhatsApp website
+[6:49 PM, 8/5/2025] Omar: I see, try and let me know if it works
+[6:51 PM, 8/5/2025] Hammad.: Ive done it but it's manual scraping
+[6:52 PM, 8/5/2025] Omar: That must be a lot of work
+[6:54 PM, 8/5/2025] Hammad.: Well yes but a least now I have a dataset I can rely on
+Hammad.: Mara bas jab tak WiFi chal raha ho tab tak koi tension nai hai
+I have alot of space but it still doesn't work
+Sorry wrong number
+ok
+Ye number tumhara hai Uzair?
+Thank you sir
